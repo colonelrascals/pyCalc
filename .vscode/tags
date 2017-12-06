@@ -4,4 +4,14 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
+Application	../main.py	/^class Application(QWidget):$/;"	kind:class	line:33
+Button	../main.py	/^class Button:$/;"	kind:class	line:8
+CreateApp	../main.py	/^    def CreateApp(self):$/;"	kind:member	line:39
+__init__	../main.py	/^    def __init__(self):$/;"	kind:member	line:34
+__init__	../main.py	/^    def __init__(self, text, results):$/;"	kind:member	line:9
+app	../main.py	/^    app = QApplication(sys.argv)$/;"	kind:variable	line:74
+handleInput	../main.py	/^    def handleInput(self, v):$/;"	kind:member	line:15
 main.py	../main.py	1;"	kind:file	line:1
+math	../main.py	/^import math$/;"	kind:namespace	line:2
+sys	../main.py	/^import sys$/;"	kind:namespace	line:1
+window	../main.py	/^    window = Application()$/;"	kind:variable	line:75

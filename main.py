@@ -9,7 +9,7 @@ class Button:
     def __init__(self, text, results):
         self.b = QPushButton(str(text))
         self.text = text
-        self.results = results 
+        self.results = results
         self.b.clicked.connect(lambda: self.handleInput(self.text))
 
     def handleInput(self, v):
@@ -56,11 +56,11 @@ class Application(QWidget):
                 col = 0
                 row += 1
             but = Button(button, results)
-            
+
             if button == 0:
                 grid.addWidget(but.b, row, col, 1, 2)
                 col += 1
-            
+
             else:
                 grid.addWidget(but.b, row, col, 1, 1)
 
